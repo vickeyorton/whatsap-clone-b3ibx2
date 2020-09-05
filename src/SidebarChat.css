@@ -1,0 +1,32 @@
+.sidebarChat{
+  display:flex;
+  height:75px;
+  flex-grow: 1;
+  align-items: center;
+  cursor: pointer;
+  border-bottom:1px solid #f6f6f6;
+}
+.sidebarChat:hover{
+  background: #ebebeb;
+}
+.sidebarChat > .MuiAvatar-root{
+  margin: 0px 15px;
+}
+.sidebarChat__info{
+  padding-right: 15px;
+}
+.sidebarChat__info > h2{
+  font-size: 16px;
+  margin:0px 0px 5px 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.sidebarChat__info > p{
+  position: relative;
+  margin:auto;
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
