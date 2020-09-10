@@ -17,7 +17,7 @@ function Chat({messages}){
     await axios.post('messages/new/',{
       message: input,
       name: "Demo",
-      timestamp: "timestamp:10-08-2020",
+      timestamp: new Date().toUTCString(),
       received: false
     });
     setInput("");
